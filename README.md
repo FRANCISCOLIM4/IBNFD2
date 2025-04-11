@@ -10,12 +10,12 @@
     body {
       margin: 0;
       font-family: 'Roboto', sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
+      background-color: #000; /* fundo preto */
+      color: #f0f0f0; /* texto claro */
     }
 
     header {
-      background: linear-gradient(to right, #2c3e50, #3498db);
+      background: linear-gradient(to right, #111, #333);
       color: white;
       padding: 60px 20px;
       text-align: center;
@@ -31,7 +31,7 @@
     }
 
     nav {
-      background-color: #2c3e50;
+      background-color: #111;
       display: flex;
       justify-content: center;
       padding: 12px 0;
@@ -45,7 +45,7 @@
     }
 
     nav a:hover {
-      text-decoration: underline;
+      color: #00bfff;
     }
 
     .container {
@@ -55,15 +55,15 @@
     }
 
     .section {
-      background: white;
+      background: #1a1a1a;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(255,255,255,0.05);
       padding: 30px;
       margin-bottom: 30px;
     }
 
     h2 {
-      color: #2c3e50;
+      color: #00bfff;
       margin-bottom: 15px;
     }
 
@@ -72,8 +72,8 @@
     }
 
     .verse {
-      background: #ecf0f1;
-      border-left: 5px solid #3498db;
+      background: #111;
+      border-left: 5px solid #00bfff;
       padding: 15px;
       font-style: italic;
       margin-bottom: 30px;
@@ -102,7 +102,7 @@
     }
 
     footer {
-      background-color: #2c3e50;
+      background-color: #111;
       color: white;
       text-align: center;
       padding: 25px 10px;
