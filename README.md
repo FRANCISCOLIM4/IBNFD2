@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>IBNFD2 - Igreja Batista Nacional Filadélfia Dirceu 2</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
       font-family: 'Roboto', sans-serif;
-      background-color: #000; /* fundo preto */
-      color: #f0f0f0; /* texto claro */
+      background-color: #000;
+      color: #f0f0f0;
     }
 
     header {
@@ -97,6 +97,10 @@
       transition: background 0.3s;
     }
 
+    .whatsapp-btn i {
+      margin-right: 8px;
+    }
+
     .whatsapp-btn:hover {
       background-color: #1ebe57;
     }
@@ -107,6 +111,16 @@
       text-align: center;
       padding: 25px 10px;
       margin-top: 60px;
+    }
+
+    footer a {
+      color: #00bfff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -129,12 +143,12 @@
     </div>
 
     <div class="section" id="sobre">
-      <h2>Sobre a Igreja</h2>
+      <h2><i class="fas fa-church"></i> Sobre a Igreja</h2>
       <p>Somos uma igreja cristã bíblica, com foco no ensino da Palavra, discipulado e comunhão entre os irmãos. Nossa missão é levar vidas à presença de Deus e formar discípulos fiéis ao evangelho de Cristo.</p>
     </div>
 
     <div class="section" id="cultos">
-      <h2>Horários de Culto</h2>
+      <h2><i class="fas fa-clock"></i> Horários de Culto</h2>
       <ul>
         <li><strong>Domingo:</strong> 18h - Culto de Celebração</li>
         <li><strong>Quarta-feira:</strong> 19h30 - Culto de Ensino / Estudo Bíblico</li>
@@ -143,7 +157,7 @@
     </div>
 
     <div class="section" id="contato">
-      <h2>Contato</h2>
+      <h2><i class="fas fa-envelope"></i> Contato</h2>
       <p><strong>Endereço:</strong> Dirceu 2, Teresina - PI</p>
       <p><strong>Email:</strong> contato@ibnfd2.org (exemplo)</p>
 
@@ -151,13 +165,19 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.980962978274!2d-42.779360!3d-5.089210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78d39937fd7a5a9%3A0xa8822b5c88ebf514!2sDirceu%202%2C%20Teresina%20-%20PI!5e0!3m2!1spt-BR!2sbr!4v1617901500000" height="300" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
-      <a class="whatsapp-btn" href="https://wa.me/5599999999999" target="_blank">Fale conosco no WhatsApp</a>
+      <a class="whatsapp-btn" href="https://wa.me/5599999999999" target="_blank">
+        <i class="fab fa-whatsapp"></i> Fale conosco no WhatsApp
+      </a>
     </div>
   </div>
 
   <footer>
     <p>&copy; 2025 IBNFD2 - Igreja Batista Nacional Filadélfia Dirceu 2</p>
-    <p>Instagram | Facebook | YouTube</p>
+    <p>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a> |
+      <a href="#"><i class="fab fa-facebook"></i> Facebook</a> |
+      <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+    </p>
   </footer>
 </body>
 </html>
