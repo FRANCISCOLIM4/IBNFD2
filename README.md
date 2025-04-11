@@ -4,27 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>IBNFD2 - Igreja Batista Nacional Filadélfia Dirceu 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fdfdfd;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
     }
 
     header {
-      background: url('https://source.unsplash.com/1600x600/?church') center/cover no-repeat;
+      background: linear-gradient(to right, #2c3e50, #3498db);
       color: white;
+      padding: 60px 20px;
       text-align: center;
-      padding: 100px 20px;
     }
 
     header h1 {
-      font-size: 2.8em;
+      font-size: 3em;
       margin-bottom: 10px;
     }
 
     header p {
-      font-size: 1.3em;
+      font-size: 1.2em;
     }
 
     nav {
@@ -36,7 +39,7 @@
 
     nav a {
       color: #fff;
-      margin: 0 20px;
+      margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
@@ -46,19 +49,22 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 0 20px;
     }
 
     .section {
-      margin-bottom: 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-bottom: 30px;
     }
 
     h2 {
       color: #2c3e50;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 8px;
+      margin-bottom: 15px;
     }
 
     ul {
@@ -66,16 +72,33 @@
     }
 
     .verse {
-      font-style: italic;
-      color: #555;
-      background: #f0f0f0;
+      background: #ecf0f1;
+      border-left: 5px solid #3498db;
       padding: 15px;
-      border-left: 4px solid #2c3e50;
-      margin: 20px 0;
+      font-style: italic;
+      margin-bottom: 30px;
     }
 
-    .map {
+    .map iframe {
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
       margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe57;
     }
 
     footer {
@@ -84,21 +107,6 @@
       text-align: center;
       padding: 25px 10px;
       margin-top: 60px;
-    }
-
-    .whatsapp-btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #25d366;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .whatsapp-btn:hover {
-      background-color: #1ebe57;
     }
   </style>
 </head>
@@ -121,26 +129,26 @@
     </div>
 
     <div class="section" id="sobre">
-      <h2>Sobre Nós</h2>
-      <p>Somos uma igreja cristã que crê no poder da Palavra de Deus e na transformação através do amor de Jesus. Nossa missão é anunciar o evangelho e discipular vidas para a glória de Deus.</p>
+      <h2>Sobre a Igreja</h2>
+      <p>Somos uma igreja cristã bíblica, com foco no ensino da Palavra, discipulado e comunhão entre os irmãos. Nossa missão é levar vidas à presença de Deus e formar discípulos fiéis ao evangelho de Cristo.</p>
     </div>
 
     <div class="section" id="cultos">
       <h2>Horários de Culto</h2>
       <ul>
-        <li><strong>Domingo</strong> – 18h: Culto de Celebração</li>
-        <li><strong>Quarta-feira</strong> – 19h30: Estudo Bíblico</li>
-        <li><strong>Sábado</strong> – 19h30: Culto Jovem / Culto de Avivamento</li>
+        <li><strong>Domingo:</strong> 18h - Culto de Celebração</li>
+        <li><strong>Quarta-feira:</strong> 19h30 - Culto de Ensino / Estudo Bíblico</li>
+        <li><strong>Sábado:</strong> 19h30 - Culto Jovem / Culto de Avivamento</li>
       </ul>
     </div>
 
     <div class="section" id="contato">
       <h2>Contato</h2>
-      <p><strong>Email:</strong> contato@ibnfd2.org</p>
-      <p><strong>Endereço:</strong> Rua da Fé, 123 - Dirceu 2 - Teresina, PI</p>
-      
+      <p><strong>Endereço:</strong> Dirceu 2, Teresina - PI</p>
+      <p><strong>Email:</strong> contato@ibnfd2.org (exemplo)</p>
+
       <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.980962978274!2d-42.779360!3d-5.089210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78d39937fd7a5a9%3A0xa8822b5c88ebf514!2sDirceu%202%2C%20Teresina%20-%20PI!5e0!3m2!1spt-BR!2sbr!4v1617901500000" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.980962978274!2d-42.779360!3d-5.089210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78d39937fd7a5a9%3A0xa8822b5c88ebf514!2sDirceu%202%2C%20Teresina%20-%20PI!5e0!3m2!1spt-BR!2sbr!4v1617901500000" height="300" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <a class="whatsapp-btn" href="https://wa.me/5599999999999" target="_blank">Fale conosco no WhatsApp</a>
@@ -149,7 +157,7 @@
 
   <footer>
     <p>&copy; 2025 IBNFD2 - Igreja Batista Nacional Filadélfia Dirceu 2</p>
-    <p>Siga-nos nas redes sociais: Instagram | Facebook | YouTube</p>
+    <p>Instagram | Facebook | YouTube</p>
   </footer>
 </body>
 </html>
